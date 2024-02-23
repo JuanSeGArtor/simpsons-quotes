@@ -22,7 +22,12 @@ export default function Quotes() {
                 <h1>Discover some Simpsons quotes</h1>
 
                 <input type="search" name="" id="" defaultValue='Search' />
+
                 <QuoteBlock quotes={quotes} />
+
+                <button>
+                    Show me more
+                </button>
             </article>
         </section>
     )
