@@ -1,0 +1,56 @@
+// Estilos componente QuoteBlock
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.quote-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    blockquote, .quote-caption {
+        border-radius: 10px;
+    }
+    // div general de la frase
+    blockquote {
+        min-width: 255px;
+        min-height: 250px;
+        background-color: rgba(255, 222, 0, 1);
+        padding: 20px;
+
+        // estilos para 'character'
+        h3 {
+            font-size: 18px;
+            font-family: "Londrina Solid", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }     
+
+        // div para la frase e imagen
+        .quote-caption {
+            position: relative;
+            width: 213px;
+            height: 190px;
+            background-color: white;
+            margin-bottom: 15px;
+            padding: 20px;
+            
+            // estilos para 'quote'
+            p {
+                font-size: 14px;
+                text-align: start;
+                margin-right: 60px;
+                font-family: "Merriweather", serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+            // estilos para 'image'
+            img {
+                position: absolute;
+                max-width: 71px;
+                max-height: 116px;
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+    }
+}
