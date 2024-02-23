@@ -1,9 +1,30 @@
+// Estilos componente MuteButton
+
 .mute-btn {
     background-color: transparent;
+    color: aliceblue;
+    font-size: 18px;
     border: none;
     cursor: pointer;
-}
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 37%;
 
-.mute-btn.muted {
-    color: red;
+    img {
+        position: absolute;
+        z-index: 1;
+        background-color: transparent;
+        width: 40px;
+        height: auto;
+    }
+
+    &.muted img {
+        border: 2px solid rgb(202, 202, 202);
+        border-radius: 100%;
+    }
+
+    @media (max-width: 420px) {
+        left: 5%;
+    }
 }
