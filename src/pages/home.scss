@@ -7,20 +7,44 @@
     img {
         height: 100vh;
     }
+    .mute-btn {
+        background-color: transparent;
+        color: aliceblue;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+        top: 90%;
+        left: 37%;
+
+        img {
+            position: absolute;
+            z-index: 1;
+            background-color: transparent;
+            width: 40px;
+            height: auto;
+        }
+
+        &.muted img {
+            border: 2px solid rgb(202, 202, 202);
+            border-radius: 100%;
+        }
+    }
     .start-btn {
-        position: fixed;
+        position: absolute;
         z-index: 1;
         top: 60%;
         padding: 10px 30px 10px 30px;
-        font-size: 28px;
+        font-size: 20px;
         text-decoration: none;
         background-color: rgba(246, 250, 215, 0.884);
+        color: black;
         border-radius: 40px;
-        box-shadow: 0px 4px 8px yellow;
+        box-shadow: 0px 4px 8px gray;
         
         &:hover {
             background-color: rgba(255, 255, 0, 0.861);
-            color: antiquewhite;
         }
         &:active {
             top: 62%;

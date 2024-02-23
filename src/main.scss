@@ -1,5 +1,4 @@
 // Estilos generales
-@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
 * {
     margin: 0;
@@ -7,15 +6,6 @@
 }
 
 body {
-    background-color: rgba(222, 184, 135, 0.811);
-    
-    .special-btn {
-        font-family: "Honk", system-ui;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-variation-settings:
-            "MORF" 15,
-            "SHLN" 50;
-    }
+    background-color: rgb(74, 171, 213);
+    font-family: Arial, Helvetica, sans-serif;
 }
