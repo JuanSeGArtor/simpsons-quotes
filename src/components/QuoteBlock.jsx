@@ -8,7 +8,7 @@ export default function QuoteBlock({ quotes }) {
                 <blockquote key={index}>
                     <div className="quote-caption">
                         <p>{quote.quote}</p>
-                        <img src={quote.img} alt={quote.character} />
+                        <img src={quote.image} alt={quote.character} />
                     </div>
                     <h3>{quote.character}</h3>
                 </blockquote>
