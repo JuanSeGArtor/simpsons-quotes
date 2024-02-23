@@ -1,0 +1,9 @@
+.mute-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mute-btn.muted {
+    color: red;
+}
