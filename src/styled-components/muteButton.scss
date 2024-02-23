@@ -17,11 +17,14 @@
         background-color: transparent;
         width: 40px;
         height: auto;
+        border-radius: 100%;
     }
 
     &.muted img {
         border: 2px solid rgb(202, 202, 202);
-        border-radius: 100%;
+    }
+    &:focus img {
+        border: 1px solid black;
     }
 
     @media (max-width: 420px) {

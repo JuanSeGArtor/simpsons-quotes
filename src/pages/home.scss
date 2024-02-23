@@ -14,7 +14,7 @@
         padding: 10px 30px 10px 30px;
         font-size: 20px;
         text-decoration: none;
-        background-color: rgba(246, 250, 215, 0.884);
+        background-color: rgba(215, 245, 250, 0.884);
         color: black;
         border-radius: 40px;
         box-shadow: 0px 4px 8px gray;
@@ -27,7 +27,7 @@
         }
     }
 
-    @media (max-width: 550px) {
+    @media (max-width: 480px) {
         img {
             width: 100vw;
         }

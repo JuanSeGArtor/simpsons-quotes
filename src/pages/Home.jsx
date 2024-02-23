@@ -16,12 +16,11 @@ export default function Home() {
         <div className="home-container">
             <img src={simpsonsImg} alt="The Simpsons" />
             <Link to="/quotes" className="start-btn special-btn">
-                INICIAR
+                GO  
             </Link>
             <MuteButton isMuted={isMuted} handleToggleMute={handleToggleMute} />
             <audio autoPlay muted={isMuted}>
                 <source src={simpsonsSong} type="audio/mp3" />
-                Tu navegador no soporta el elemento de audio.
             </audio>
         </div>
     );
